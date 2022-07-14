@@ -1,4 +1,10 @@
-class Book
-  def initialize
-  end
-end 
+class Book {
+  constructor(pageNum, author){
+    this.pageNum = pageNum;
+    this.author = author;
+  }
+
+  printAuthor = () => {
+    console.log(this.author);
+  }
+} 
